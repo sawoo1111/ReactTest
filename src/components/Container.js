@@ -7,6 +7,7 @@ const Container = ({ searchTerm }) => {
   const { images, loading, runSearch } = useContext(PhotoContext);
   useEffect(() => {
     runSearch(searchTerm);
+debugger;
     // eslint-disable-next-line
   }, [searchTerm]);
 
